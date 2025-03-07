@@ -27,8 +27,8 @@ function App() {
   const [isUploadOpen, setIsUploadOpen] = useState(false);
   const [editingCharacter, setEditingCharacter] = useState<Character | null>(null);
   const [siteConfig, setSiteConfig] = useState<SiteConfig>({
-    title: 'RPG Character Showcase',
-    subtitle: 'Meet the heroes of our pixel adventure'
+    title: 'Beneath a Shattered Sky',
+    subtitle: 'A burning dream, a wild journey and four brave souls...'
   });
   const [isEditingTitle, setIsEditingTitle] = useState(false);
 
