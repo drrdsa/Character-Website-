@@ -90,7 +90,7 @@ function App() {
                   type="text"
                   value={siteConfig.title}
                   onChange={(e) => setSiteConfig({ ...siteConfig, title: e.target.value })}
-                  className="bg-gray-800 text-3xl font-bold text-purple-400 p-2 rounded-lg w-full"
+                  className="bg-gray-800 text-3xl font-bold text-red-500 p-2 rounded-lg w-full"
                   placeholder="Enter title"
                 />
                 <input
